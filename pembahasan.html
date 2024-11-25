@@ -7,18 +7,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js">
+</script>
 </head>
 <body>
 
     <header class="navbar-container">
-        <d class="logo">
+        <div class="logo">
             <a href="index.html">
                 <img src="img/logoquadragraph.png" alt="QuadraGraph_Logo"/>
             </a>
             <a href="index.html">
                 <span>QuadraGraph</span>
             </a>
-        </d>
+        </div>
         
         <input type="checkbox", id="check">
         <label for="check" class="icons">
@@ -199,17 +203,55 @@
                       <li data-aos="zoom-in">Menentukan Grafik Fungsi Kuadrat f(x)= x<sup>2</sup> − 4x + 3
                       <ul data-aos="zoom-in">
                           <li>Arah parabola : a = 1 > 0, Jadi parabola terbuka ke atas</li>
-                          <li>Sumbu Simetri : </li>
-                          <li>
-                              <p>Titik Potong dengan sumbu y :f(0)=3, Jadi titik Potong dengan sumbu y adalah (0,3)</p>
-      
-                      </ul>
-                      </li>
-                      </ul>
+                          <li>Sumbu Simetri : 
+                                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                                  <mi>x</mi> <mo>=</mo><mo>-</mo>
+                                  <mrow>
+                                    <mfrac>
+                                      <mrow>
+                                        <mi>- 4</mi>
+                                      </mrow>
+                                      <mrow>
+                                        <mn>2</mn> <mi>(1)</mi>
+                                      </mrow>
+                                    </mfrac>
+                                  </mrow>
+                                  <mo> = </mo><mo>2</mo>
+                                </math>
+                                </p>
+                                
+                                  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+                                <script type="text/javascript" id="MathJax-script" async
+                                  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js">
+                                </script>
+                          </li>
+                          <ul data-aos="zoom-in">
+                                <li data-aos="zoom-in">itik Potong dengan sumbu y :
+                                <p data-aos="zoom-in"class="notasi"><b>f(0)=3</b></p> 
+                                <p data-aos="zoom-in">Jadi titik Potong dengan sumbu y adalah (0,3)</p></li>
+                                <li data-aos="zoom-in">Titik Potong dengan sumbu x :</li>
+                                <li data-aos="zoom-in"class="notasi">x<sup>2</sup> – 4x + 3 = 0</li>
+                                <p data-aos="zoom-in">Faktorkan : </p>
+                                <li class="notasi">(x - 3)(x - 1) = 0</li>
+                                <p data-aos="zoom-in">Jadi, x = 3 dan x = 1. Titik potongnya adalah (3, 0) dan (1, 0).</p>
+                          </ul>
+                     </li>
+                     </ul>
+                    </ul>
+                  </div>
+                  <br><h2 data-aos="zoom-in">Gambar Grafik</h2>
+                  <div data-aos="zoom-in"class="explanation">
+                            <ul data-aos="zoom-in">
+                                <li data-aos="zoom-in">Parabola terbuka ke atas.</li>
+                                <li data-aos="zoom-in">Titik puncak di (2, −1)</li>     
+                                <li data-aos="zoom-in">Titik potong sumbu y di (0, 3)</li>
+                                <li data-aos="zoom-in">Titik potong sumbu x di (3, 0) dan (1, 0)</li>
+                                <img data-aos="zoom-in"src="img/grafik.png" alt="Image 1">
+                            </ul>
                   </div>
               </section>
-          </div>
 </body>
+
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
